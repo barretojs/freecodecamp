@@ -5,5 +5,5 @@
 Made using NestJS
 
 To run: npm run start:dev (start the server on nodemon)
-To test: npm run test or npm run test:cov (test with jest or coverage report)
 
+To test: npm run test or npm run test:cov (test with jest or coverage report)
