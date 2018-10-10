@@ -1,13 +1,13 @@
-import { Controller, Get, Res } from '@nestjs/common';
+import { Get, Controller, Res } from '@nestjs/common';
 import { AppService } from './app.service';
 import { Response } from 'express';
 
-@Controller('/')
+@Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
   async root(@Res() res: Response) {
-    return await this.appService.root(res);
+    return this.appService.root(res);
   }
 }
