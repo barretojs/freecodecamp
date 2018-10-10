@@ -4,7 +4,9 @@
 
 Made using NestJS
 
-To run: npm run start:dev (start the server on nodemon)
+To run in development mode: npm run start:dev (start the server on nodemon)
+
+To run in production mode: npm run start:prod (compile and start)
 
 To test: npm run test or npm run test:cov (test with jest or coverage report)
 
