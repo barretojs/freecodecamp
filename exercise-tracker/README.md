@@ -1,4 +1,4 @@
-# Timestamp Microservice
+# Exercise Tracker Microservice
 
 ### Made as part of the "APIs and Microservices projects" from freecodecamp
 
