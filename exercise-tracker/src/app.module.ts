@@ -8,7 +8,8 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     ExerciseTrackerModule,
     MongooseModule.forRoot(
-      'mongodb://adm:admadm00@ds027748.mlab.com:27748/exercise-tracker'
+      'mongodb://adm:admadm00@ds027748.mlab.com:27748/exercise-tracker',
+      { useNewUrlParser: true }
     )
   ],
   controllers: [AppController],
